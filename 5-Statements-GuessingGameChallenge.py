@@ -31,10 +31,6 @@ while True:
                     print("WARM!")
                 elif roundcount<1 :
                     print("COLD!")
-
-                if roundcount>=1 and guess == ans:
-                    print ("CONGRATS!")
-                    break
                 elif roundcount>=1 and abs(guesses[-1] - ans) < abs(guesses[-2] - ans):
                     print("Warmer!")
                     continue
